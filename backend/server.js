@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import mongoose from "mongoose";
 import { connectDB } from "./config/db.js";
 import Product from "./models/product.model.js";
 
@@ -40,6 +41,10 @@ app.get("/api/products", async (req, res) => {
 app.put("/api/products/:id", async (req, res) => {
   const { id } = req.params;
   const product = req.body;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(400).json({ success: false, message: "Invalid Product ID" });
+  }
   
   try {
     await Product.findByIdAndUpdate(id, product);
