@@ -32,7 +32,7 @@ function App() {
             </Box>
             <VStack align="start" spacing="0">
               <Heading size="lg" color="brand.600">
-                Product Store
+                Toko Online
               </Heading>
               <Text color="gray.600" fontSize="sm">
                 Kelola produk toko Anda dengan mudah
@@ -52,7 +52,7 @@ function App() {
         <Container maxW="container.xl" py="6">
           <VStack spacing="2">
             <Text color="gray.600" fontSize="sm">
-              © 2024 Product Store. Dibuat dengan ❤️ menggunakan React & Chakra UI
+              © 2025 Toko Online. Dibuat dengan ❤️ menggunakan React & Chakra UI
             </Text>
             <Text color="gray.400" fontSize="xs">
               Backend: Node.js + Express + MongoDB
