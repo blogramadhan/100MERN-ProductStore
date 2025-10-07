@@ -1,0 +1,32 @@
+[
+  {
+    "name": "iPhone 15 Pro",
+    "price": 15999000,
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "MacBook Air M2",
+    "price": 18999000,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Samsung Galaxy S24",
+    "price": 12999000,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "iPad Pro 12.9",
+    "price": 14999000,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "AirPods Pro 2",
+    "price": 3999000,
+    "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "price": 4999000,
+    "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=400&h=300&fit=crop"
+  }
+]

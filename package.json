@@ -5,7 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon backend/server.js"
+    "dev": "nodemon backend/server.js",
+    "dev:frontend": "cd frontend && npm start",
+    "dev:backend": "nodemon backend/server.js",
+    "install:frontend": "cd frontend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "seed:demo": "node scripts/seed-demo-data.js",
+    "test:api": "node test-api.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +25,7 @@
   },
   "homepage": "https://github.com/blogramadhan/100MERN-ProductStore#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mongoose": "^8.19.0"
