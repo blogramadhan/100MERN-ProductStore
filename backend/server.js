@@ -10,13 +10,13 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors()); // Enable CORS for all routes
-app.use(express.json()); // to parse the body of the request
+app.use(cors()); // Mengaktifkan CORS untuk semua route
+app.use(express.json()); // Untuk mem-parse body dari request
 
 // Routes
 app.use("/api/products", productRoutes);
 
-// Health check endpoint
+// Endpoint untuk pengecekan kesehatan server
 app.get("/", (req, res) => {
   res.json({ message: "Product Store API is running!" });
 });
